@@ -22,8 +22,7 @@ STYLE SHEET INDEXING
 /*-------------------------
     Fonts
 -------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 /*-------------------------
     Variables
 -------------------------*/
@@ -93,7 +92,7 @@ html {
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #808080;
   background-color: #FFFFFF;
   vertical-align: baseline;
@@ -180,9 +179,9 @@ h5,
 .h5,
 h6,
 .h6 {
-  color: #131110;
+  color: #1c3d78;
   margin-bottom: 0;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 h1,
@@ -347,7 +346,7 @@ h6,
 }
 
 .text-18 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: clamp(17px, 0.938vw, 22px);
   font-weight: 400;
   line-height: 140%;
@@ -398,10 +397,10 @@ h6,
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #131110;
+  color: #c11d26;
   text-transform: uppercase;
   font-size: clamp(14.5px, 1.042vw, 40px);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   line-height: 120%;
   /* 24px */
@@ -439,7 +438,7 @@ span {
 
 b,
 strong {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 /*-------------------------
@@ -454,7 +453,7 @@ Helpers
 }
 
 .dark-black {
-  color: #131110 !important;
+  color: #1c3d78 !important;
 }
 
 .light-black {
@@ -466,7 +465,7 @@ Helpers
 }
 
 .dark-gray {
-  color: #808080 !important;
+  color: #000 !important;
 }
 
 .medium-gray {
@@ -534,11 +533,11 @@ Helpers
 }
 
 .font-primary {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .font-sec {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Saira", sans-serif;
 }
 
 /*----------------------------------------*/
@@ -887,7 +886,7 @@ Elements
   line-height: 120%;
   letter-spacing: 0.32px;
   text-transform: uppercase;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   text-align: center;
   color: #FFFFFF;
   display: inline-flex;
@@ -967,7 +966,7 @@ Elements
   line-height: 120%;
   letter-spacing: 0.32px;
   text-transform: uppercase;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   text-align: center;
   color: #1c3d78;
   display: flex;
@@ -1041,7 +1040,7 @@ Elements
   line-height: 120%;
   letter-spacing: 0.32px;
   text-transform: uppercase;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   text-align: center;
   color: #FFFFFF;
   display: inline-flex;
@@ -1262,7 +1261,7 @@ textarea.form-control {
   border-radius: 0;
   border: 1px solid #BDBCBC;
   background: #FFFFFF;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: clamp(17px, 0.938vw, 22px);
   font-weight: 400;
   line-height: 140%;
@@ -1625,7 +1624,7 @@ header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .ma
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .stricky-header .main-menu__list > li > a {
   padding: clamp(24px, 1.458vw, 40px) 0;
   font-size: clamp(17px, 0.938vw, 22px);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 700;
@@ -1707,7 +1706,7 @@ header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .st
   line-height: 26px;
   color: #FFFFFF;
   font-weight: 500;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   display: flex;
   padding: 7px 20px;
   transition: 400ms;
@@ -1949,7 +1948,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   line-height: 30px;
   color: #FFFFFF;
   font-size: 18px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   text-transform: capitalize;
   font-weight: 500;
   height: 46px;
@@ -2241,7 +2240,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
 }
 .marquee .text-block {
   font-size: clamp(48px, 4.427vw, 120px);
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Saira", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
@@ -2325,7 +2324,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
 }
 .about-sec .about-slider-wrapper .about-slide .about-heading h2 {
   font-size: clamp(61px, 5.99vw, 150px);
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Saira", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -2465,7 +2464,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
 }
 .about-sec-1 .about-block .about-image-box .about-heading h2 {
   font-size: clamp(61px, 5.99vw, 150px);
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Saira", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -2719,7 +2718,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
 }
 .projects .project-wrapper .project-block .content-box h3 {
   text-transform: uppercase;
-  color: #131110;
+  color: #1c3d78;
   transition: all 0.5s ease-in-out;
 }
 .projects .project-wrapper .project-block:hover img {
@@ -3353,7 +3352,7 @@ footer .newsletter .newsletter-heading .icon-box {
   display: grid;
   align-items: center;
   justify-content: center;
-  background: #131110;
+  background: #c11d26;
   width: clamp(70px, 3.854vw, 96px);
   height: clamp(70px, 3.854vw, 96px);
 }
@@ -3580,9 +3579,9 @@ footer .company-contacts .rotate-container .contact-btn span {
   }
 }
 footer .company-contacts .rotate-container .contact-btn:hover {
-  color: #131110;
+  color: #1c3d78;
   transition: all 0.5s ease-in-out;
-  border: 1px solid #131110;
+  border: 1px solid #c11d26;
 }
 footer .company-contacts .rotate-container .contact-btn:hover::before {
   width: 105%;
@@ -3916,7 +3915,7 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
   }
 }
 .coming-soon-page .coming-soon-cd ul li h2 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #c11d26;
   font-size: clamp(40px, 3.177vw, 122px);
   font-weight: 700;
@@ -3939,7 +3938,7 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
   }
 }
 .coming-soon-page .coming-soon-cd ul li h6 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #1c3d78;
   font-size: 0.9375vw;
   font-weight: 500;
@@ -3976,7 +3975,7 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
   }
 }
 .coming-soon-page .title-name {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 3.59375vw;
   font-weight: 600;
   line-height: 120%;
