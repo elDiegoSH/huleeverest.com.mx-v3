@@ -1679,8 +1679,8 @@ header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .st
   position: absolute;
   top: 100%;
   left: -25px;
-  min-width: 380px;
-  flex-direction: row;
+  min-width: 280px;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
@@ -1697,7 +1697,7 @@ header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .st
 }
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .main-menu__list li ul li,
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .stricky-header .main-menu__list li ul li {
-  width: 47%;
+  width: 100%;
   position: relative;
 }
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .main-menu__list li ul li > a,
@@ -1708,16 +1708,16 @@ header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .st
   font-weight: 500;
   font-family: "Rubik", sans-serif;
   display: flex;
-  padding: 7px 20px;
+  padding: 3px 20px;
   transition: 400ms;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   border-radius: 0px;
 }
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .main-menu__list li ul li > a::after, 
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .stricky-header .main-menu__list li ul li > a::after {
   position: absolute;
   right: 15px;
-  top: 7px;
+  top: 3px;
   border-radius: 0;
   font-size: 14px;
   font-weight: 900; /* Free usa el sólido con weight 900 */
