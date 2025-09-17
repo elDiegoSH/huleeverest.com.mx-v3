@@ -1535,7 +1535,7 @@ header .main-menu .main-menu__block {
 header .main-menu .main-menu__logo {
   align-items: center;
   position: relative;
-  padding: clamp(24px, 2.5vw, 96px) 3.594vw;
+  padding: clamp(24px, 2.5vw, 26px) 3.594vw;
 }
 @media (max-width: 1299px) {
   header .main-menu .main-menu__logo {
@@ -2230,7 +2230,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
 }
 
 .marquee {
-  padding: clamp(24px, 3.333vw, 92px) 0;
+  padding: clamp(24px, 5.333vw, 92px) 0;
   background: url("../media/brands/marquee.png") no-repeat;
   background-position: center;
   background-size: cover;
@@ -2239,27 +2239,28 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   background: #F5F7F9;
 }
 .marquee .text-block {
-  font-size: clamp(48px, 4.427vw, 120px);
+  font-size: 55px;
   font-family: "Saira", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   color: #FFFFFF;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .marquee .text-block {
-    font-size: clamp(38px, 5.119vw, 48px);
+    font-size: 30px;
   }
 }
 @media (max-width: 767px) {
   .marquee .text-block {
-    font-size: clamp(35px, 6.094vw, 45px);
+    font-size: 25px;
   }
 }
 @media (max-width: 575px) {
   .marquee .text-block {
-    font-size: clamp(18px, 4.78vw, 40px);
+    font-size: 17px;
   }
 }
 
@@ -2322,7 +2323,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   gap: clamp(16px, 1.667vw, 48px);
   border-bottom: 1px solid #FFFFFF;
 }
-.about-sec .about-slider-wrapper .about-slide .about-heading h2 {
+.about-sec .about-slider-wrapper .about-slide .about-heading h3 {
   font-size: clamp(61px, 5.99vw, 150px);
   font-family: "Saira", sans-serif;
   font-weight: 700;
@@ -4035,5 +4036,10 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
     right: 6px;
   }
 }
+
+.sombra {
+  text-shadow: 1px 1px 5px #ffffffbb;
+}
+
 
 /*# sourceMappingURL=app.css.map */
