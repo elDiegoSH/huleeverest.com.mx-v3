@@ -2708,7 +2708,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   position: absolute;
   bottom: 0;
   margin: clamp(16px, 1.667vw, 48px);
-  background: #FFFFFF;
+  background: #ffffffbb;
   padding: clamp(16px, 1.667vw, 48px);
   border-radius: clamp(10px, 1.042vw, 30px);
 }
