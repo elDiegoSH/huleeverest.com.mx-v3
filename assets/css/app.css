@@ -2493,6 +2493,17 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   margin: 0 12px;
   width: 100%;
 }
+
+.services .services-wrapper .services-block2 {
+  padding: clamp(16px, 1.667vw, 48px);
+  background-color: #12ff00;
+  border: 2px solid #BDBCBC;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, 1.667vw, 48px);
+  margin: 0 12px;
+  width: 100%;
+}
 .services .services-wrapper .services-block.v-2 {
   margin-left: 0;
   margin-right: 0;
@@ -4040,6 +4051,10 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
 .sombra {
   text-shadow: 1px 1px 5px #ffffffbb;
 }
+
+ .sombra2 {
+  text-shadow: 1px 1px 2px #ffffffbb;
+ }
 
 
 /*# sourceMappingURL=app.css.map */
