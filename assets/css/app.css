@@ -184,6 +184,10 @@ h6,
   font-family: "Rubik", sans-serif;
 }
 
+h1 {
+  color: #fff;
+}
+
 h1,
 .h1 {
   font-size: clamp(40px, 3.177vw, 122px);
@@ -2235,8 +2239,60 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   background-position: center;
   background-size: cover;
 }
+
+.marquee2 {
+  padding: clamp(220px, 5.333vw, 92px) 0;
+  background: url("../media/brands/marquee.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.marquee2.whyChoose {
+  background: url(../media/backgrounds/bg-testimoniales.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.marquee2 .text-block {
+  font-size: 55px;
+  font-family: "Saira", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .marquee2 .text-block {
+    font-size: 30px;
+  }
+  .marquee2 {
+    padding: clamp(120px, 5.333vw, 92px) 0;
+    background-position: right!important;
+  }
+}
+@media (max-width: 767px) {
+  .marquee2 .text-block {
+    font-size: 25px;
+  }
+  
+}
+@media (max-width: 575px) {
+  .marquee2 .text-block {
+    font-size: 17px;
+  }
+}
+
 .marquee.whyChoose {
-  background: #F5F7F9;
+  background: url(../media/backgrounds/bg-why.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 .marquee .text-block {
   font-size: 55px;
@@ -4049,7 +4105,7 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
 }
 
 .sombra {
-  text-shadow: 1px 1px 5px #ffffffbb;
+  text-shadow: 1px 1px 5px #000;
 }
 
  .sombra2 {
