@@ -2495,7 +2495,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
 }
 .about-sec-1 .about-block .about-image-box {
   padding: 0 5vw 0 3.333vw;
-  background: url("../media/images/about-sec-1.png") no-repeat;
+  background: url("../media/images/sobre-nosotros-1.png") no-repeat;
   background-position: center;
   background-size: cover;
   height: auto;
@@ -2510,9 +2510,15 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   }
 }
 .about-sec-1 .about-block .about-image-box.box-2 {
-  background: url("../media/images/about-sec-2.png") no-repeat;
+  background: url("../media/images/sobre-nosotros-2.png") no-repeat;
   background-size: cover;
 }
+
+.about-sec-1 .about-block .about-image-box.box-3 {
+  background: url("../media/images/sobre-nosotros-3.png") no-repeat;
+  background-size: cover;
+}
+
 .about-sec-1 .about-block .about-image-box .about-heading {
   display: flex;
   align-items: center;
@@ -3681,7 +3687,8 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
   background: url("../media/backgrounds/title-banner.png") no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 6.042vw 0;
+  padding-top: 200px;
+  padding-bottom: 60px;
 }
 @media (max-width: 1024px) {
   .title-banner {
@@ -3706,6 +3713,40 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
 }
 @media (max-width: 575px) {
   .title-banner p br {
+    display: none;
+  }
+}
+
+.title-banner-nosotros {
+  background: url("../media/backgrounds/title-banner2.png") no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 60px;
+}
+@media (max-width: 1024px) {
+  .title-banner-banner-nosotros {
+    padding-left: 3.906vw;
+  }
+}
+@media (max-width: 490px) {
+  .title-banner-banner-nosotros {
+    background-position: 75%;
+    padding-left: 4px;
+  }
+}
+@media (max-width: 490px) {
+  .title-banner-banner-nosotros h1 {
+    font-size: clamp(29px, 6.78vw, 40px);
+  }
+}
+@media (max-width: 575px) {
+  .title-banner-banner-nosotros p {
+    width: 80%;
+  }
+}
+@media (max-width: 575px) {
+  .title-banner-banner-nosotros p br {
     display: none;
   }
 }
