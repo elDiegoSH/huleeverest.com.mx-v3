@@ -2271,7 +2271,7 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   }
   .marquee2 {
     padding: clamp(120px, 5.333vw, 92px) 0;
-    background-position: right!important;
+    /* background-position: right!important; */
   }
 }
 @media (max-width: 767px) {
@@ -4152,6 +4152,61 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
  .sombra2 {
   text-shadow: 1px 1px 2px #ffffffbb;
  }
+
+ .text-azul {
+  color: #1c3d78;
+ }
+
+ /* FORMULARIO DE CONTACTO */
+ .contact-form .form-control {
+  background: rgba(255, 255, 255, 0.2); /* blanco semitransparente */
+  border: 1px solid #1c3d78;
+  border-radius: 10px;
+  padding: 12px 15px;
+  color: #1c3d78; /* texto blanco para contraste */
+  font-weight: 500;
+  backdrop-filter: blur(6px); /* efecto cristal */
+  -webkit-backdrop-filter: blur(6px); /* soporte Safari */
+  transition: all 0.3s ease;
+}
+
+.contact-form .form-control::placeholder {
+  color: #fff; /* placeholder más claro */
+  font-weight: 500;
+}
+
+.contact-form .form-control:focus {
+  background: rgba(255, 255, 255, 0.3);
+  outline: none;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+/* BOTON FORMULARIO */
+.contact-form .cus-btn {
+  background: rgba(255, 255, 255, 0.15); /* transparente */
+  border: 1px solid #1c3d78;
+  border-radius: 12px;
+  padding: 12px 20px;
+  color: #c11d26;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form .cus-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.contact-form .cus-btn:active {
+  transform: translateY(1px);
+  background: rgba(255, 255, 255, 0.25);
+}
+
 
 
 /*# sourceMappingURL=app.css.map */
