@@ -2234,15 +2234,16 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
 }
 
 .marquee {
-  padding: clamp(24px, 5.333vw, 92px) 0;
-  background: url("../media/brands/marquee.png") no-repeat;
-  background-position: center;
+  padding: clamp(184px, 5.333vw, 92px) 0;
+  background: url("../media/brands/marquee.jpg") no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 
 .marquee2 {
   padding: clamp(220px, 5.333vw, 92px) 0;
-  background: url("../media/brands/marquee.png") no-repeat;
+  background: url("../media/brands/marquee.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -2781,10 +2782,12 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   position: absolute;
   bottom: 0;
   margin: clamp(16px, 1.667vw, 48px);
-  background: #ffffffbb;
+  background: #ffffff6b;
+  backdrop-filter: blur(2px);
   padding: clamp(16px, 1.667vw, 48px);
   border-radius: clamp(10px, 1.042vw, 30px);
 }
+
 @media (max-width: 1024px) {
   .projects .project-wrapper .project-block .content-box {
     padding: 16px 16px 20px;
