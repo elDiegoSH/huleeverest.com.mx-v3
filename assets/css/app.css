@@ -4210,6 +4210,50 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
   background: rgba(255, 255, 255, 0.25);
 }
 
+.tarjeta {
+  height: 600px;
+  border: 1px solid #1c3d78;
+  border-radius: 0 75px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+
+.tarjeta-1 {
+  background: linear-gradient(#0000002c, #1c3e78), url(../media/images/tarjeta-trabaja-con-nosotros.jpg);
+  
+}
+
+.tarjeta-2 {
+  background: linear-gradient(#0000002c, #1c3e78), url(../media/images/tarjeta-tecnologia.jpg);
+}
+
+.tarjeta-3 {
+  background: linear-gradient(#0000002c, #1c3e78), url(../media/images/tarjeta-responsabilidad.jpg);
+}
+
+.tarjeta-4 {
+  background: linear-gradient(#0000002c, #1c3e78), url(../media/images/tarjeta-transformacion-digital.jpg);
+}
+
+.tarjeta-gral {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.tarjeta-1:hover, .tarjeta-2:hover,
+.tarjeta-3:hover, .tarjeta-4:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 10px 5px#0000008e;
+}
+
+
+
 
 
 /*# sourceMappingURL=app.css.map */
