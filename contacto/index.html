@@ -397,41 +397,41 @@
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <form action="contact.html" method="post" class="contact-form">
+                        <form id="formulario" class="contact-form" novalidate>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-24">
                                         <label for="nombre" class="text-dark">Nombre</label>
-                                        <input type="text" class="form-control" name="nombre" id="nombre"
-                                            placeholder="Nombre" required>
+                                        <input type="text" name="nombre" value="" id="nombre" class="form-control"  placeholder="Juan López"  >
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
                                         <label for="nombre" class="text-dark">Email</label>
-                                        <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="minombre@correo.com" required>
+                                        <input type="email" name="email" value="" id="email" class="form-control"  placeholder="minombre@correo.com" >
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
                                         <label for="telefono" class="text-dark">Teléfono</label>
                                         <input type="text" class="form-control" name="telefono" id="telefono"
-                                            placeholder="5523456789" required>
+                                            placeholder="5523456789" >
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
                                         <label for="mensaje" class="text-dark">Mensaje</label>
                                         <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="10"
-                                            placeholder="Quiero cotizar..." required></textarea>
+                                            placeholder="Quiero cotizar..." ></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button type="submit" class="cus-btn">Enviar Solicitud</button>
+                                    <button type="submit" class="cus-btn mt-5">Enviar Solicitud</button>
                                 </div>
                                 <!-- Alert Message -->
-                                <div id="message" class="alert-msg"></div>
+                                <!-- <div id="message" class="alert-msg"></div> -->
+                                <div class="alert alert-success d-none" id="mensajeExito">Mensaje enviado con éxito</div>
+                                <div class="alert alert-danger d-none" id="mensajeError"></div>
                             </div>
                         </form>
                     </div>
@@ -788,6 +788,7 @@
     <script src="../assets/js/vendor/jquery.nice-select.min.js"></script>
     <script src="../assets/js/vendor/sal.js"></script>
     <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/formulario.js"></script>
 </body>
 
 </html>
