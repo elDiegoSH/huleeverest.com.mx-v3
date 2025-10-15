@@ -1322,7 +1322,7 @@
         </section>
         <!-- HULES MINEROS END -->
 
-        <!-- CONTACTO BANNER START -->
+        <!-- CONTACT BANNER START -->
         <section class="contact-banner pt-80 pb-80">
             <div class="container-fluid">
                 <div class="row">
@@ -1332,7 +1332,8 @@
                                 data-sal-delay="100" data-sal-easing="ease-in-out">
                                 <span class="eyebrow mb-16">Solicita tu cotización ahora y recíbela en minutos</span>
                                 <h2 class="fw-700 text-uppercase dark-black mb-16">Cotiza con nosotros</h2>
-                                <p class="lead text-dark">Déjanos tus datos y nuestro equipo se pondrá en contacto contigo para ofrecerte una solución rápida y confiable</p>
+                                <p class="lead text-dark">Déjanos tus datos y nuestro equipo se pondrá en contacto
+                                    contigo para ofrecerte una solución rápida y confiable</p>
                             </div>
                             <div class="support mb-48" data-sal="slide-right" data-sal-duration="900"
                                 data-sal-delay="100" data-sal-easing="ease-in-out">
@@ -1354,48 +1355,47 @@
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <form action="#" method="post" class="contact-form">
+                        <div class="alert alert-success alert-dismissible fade show d-none" id="mensajeExito" role="alert">
+                            Mensaje enviado con éxito
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        <div class="alert alert-danger d-none" id="mensajeError"></div>
+                        <form id="formulario"  class="contact-form" novalidate>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-24">
                                         <label for="nombre" class="text-azul fs-5 fw-bold">Nombre</label>
-                                        <input type="text" class="form-control" name="nombre" id="nombre"
-                                            placeholder="Nombre" required>
+                                        <input type="text" name="nombre" value="" id="nombre" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
-                                        <label for="nombre" class="text-azul fs-5 fw-bold">Email</label>
-                                        <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="minombre@correo.com" required>
+                                        <label for="email" class="text-azul fs-5 fw-bold">Email</label>
+                                        <input type="email" name="email" value="" id="email" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
                                         <label for="telefono" class="text-azul fs-5 fw-bold">Teléfono</label>
-                                        <input type="text" class="form-control" name="telefono" id="telefono"
-                                            placeholder="5523456789" required>
+                                        <input type="text" name="telefono" value="" id="telefono" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
                                         <label for="mensaje" class="text-azul fs-5 fw-bold">Mensaje</label>
-                                        <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="10"
-                                            placeholder="Quiero cotizar..." required></textarea>
+                                        <textarea rows="3" class="form-control" id="mensaje" name="mensaje" required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <button type="submit" class="cus-btn">Enviar Solicitud</button>
                                 </div>
-                                <!-- Alert Message -->
-                                <div id="message" class="alert-msg"></div>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- CONTACTO BANNER END -->
+        <!-- CONTACT BANNER END -->
 
         <!-- CERTIFICACIONES SLIDER -->
         <div class="brands pt-80 pb-80">
@@ -1930,10 +1930,10 @@
     <script src="assets/js/vendor/bootstrap.min.js"></script>
     <script src="assets/js/vendor/jquery-3.6.3.min.js"></script>
     <script src="assets/js/vendor/slick.min.js"></script>
-    <script src="assets/js/vendor/jquery-validator.js"></script>
     <script src="https://kit.fontawesome.com/3180b55582.js" crossorigin="anonymous"></script>
     <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
     <script src="assets/js/vendor/sal.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="formulario.js"></script>
 </body>
 </html>

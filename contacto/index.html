@@ -343,10 +343,10 @@
         <!-- TITLE BANNER START -->
         <section class="title-banner">
             <div class="container-fluid">
-                <h1 class=" fw-700 mb-16 sombra text-uppercase">Blog: innovación, experiencia y soluciones en hule industrial</h1>
-                <p><span class="eyebrow mb-16 sombra">Conoce más sobre el mundo del hule y sus aplicaciones en la industria</span></p>
+                <h1 class=" fw-700 mb-16 sombra text-uppercase">Hablemos de tu Proyecto</h1>
+                <p><span class="eyebrow mb-16 sombra">Rápido, sin compromiso y con el respaldo de ingenieros.</span></p>
                 <p class="text-white lead">
-                    Información especializada sobre productos de hule industrial, innovación en materiales y procesos de fabricación. <br> Aquí encontrarás artículos técnicos, casos de éxito y tendencias que impulsan la evolución de sectores como la construcción, minería, transporte y energía. <br> Nuestro objetivo es ofrecer conocimiento útil para ingenieros, compradores industriales y profesionales del mantenimiento.
+                    Utiliza el siguiente formulario para enviarnos cualquier consulta, solicitud de cotización o requerimiento técnico. <br> Nuestro equipo responderá a tu mensaje en menos de 24 horas hábiles. <br> Estamos listos para ofrecerte la solución de hule industrial que tu proyecto requiere.
                 </p>
             </div>
         </section>
@@ -397,41 +397,40 @@
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <form id="formulario" class="contact-form" novalidate>
+                        <div class="alert alert-success alert-dismissible fade show d-none" id="mensajeExito" role="alert">
+                            Mensaje enviado con éxito
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        <div class="alert alert-danger d-none" id="mensajeError"></div>
+                        <form id="formulario"  class="contact-form" novalidate>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-24">
-                                        <label for="nombre" class="text-dark">Nombre</label>
-                                        <input type="text" name="nombre" value="" id="nombre" class="form-control"  placeholder="Juan López"  >
+                                        <label for="nombre" class="text-azul fs-5 fw-bold">Nombre</label>
+                                        <input type="text" name="nombre" value="" id="nombre" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
-                                        <label for="nombre" class="text-dark">Email</label>
-                                        <input type="email" name="email" value="" id="email" class="form-control"  placeholder="minombre@correo.com" >
+                                        <label for="email" class="text-azul fs-5 fw-bold">Email</label>
+                                        <input type="email" name="email" value="" id="email" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
-                                        <label for="telefono" class="text-dark">Teléfono</label>
-                                        <input type="text" class="form-control" name="telefono" id="telefono"
-                                            placeholder="5523456789" >
+                                        <label for="telefono" class="text-azul fs-5 fw-bold">Teléfono</label>
+                                        <input type="text" name="telefono" value="" id="telefono" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-24">
-                                        <label for="mensaje" class="text-dark">Mensaje</label>
-                                        <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="10"
-                                            placeholder="Quiero cotizar..." ></textarea>
+                                        <label for="mensaje" class="text-azul fs-5 fw-bold">Mensaje</label>
+                                        <textarea rows="3" class="form-control" id="mensaje" name="mensaje" required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button type="submit" class="cus-btn mt-5">Enviar Solicitud</button>
+                                    <button type="submit" class="cus-btn">Enviar Solicitud</button>
                                 </div>
-                                <!-- Alert Message -->
-                                <!-- <div id="message" class="alert-msg"></div> -->
-                                <div class="alert alert-success d-none" id="mensajeExito">Mensaje enviado con éxito</div>
-                                <div class="alert alert-danger d-none" id="mensajeError"></div>
                             </div>
                         </form>
                     </div>
@@ -783,12 +782,12 @@
     <script src="../assets/js/vendor/bootstrap.min.js"></script>
     <script src="../assets/js/vendor/jquery-3.6.3.min.js"></script>
     <script src="../assets/js/vendor/slick.min.js"></script>
-    <script src="../assets/js/vendor/jquery-validator.js"></script>
     <script src="https://kit.fontawesome.com/3180b55582.js" crossorigin="anonymous"></script>
     <script src="../assets/js/vendor/jquery.nice-select.min.js"></script>
     <script src="../assets/js/vendor/sal.js"></script>
     <script src="../assets/js/app.js"></script>
-    <script src="../assets/js/formulario.js"></script>
+    <script src="formulario.js"></script>
+    
 </body>
 
 </html>
