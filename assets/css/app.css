@@ -3770,7 +3770,7 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
 }
 
 .sidebar {
-  border: 2px solid #BDBCBC;
+  border: 2px solid #c11d26;
   background: #F5F7F9;
   padding: clamp(20px, 1.667vw, 48px);
 }
@@ -3831,7 +3831,7 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
 }
 
 .blog-detail .blog-detail-wrapper {
-  border: 2px solid #BDBCBC;
+  border: 2px solid #1c3d78;
   background: #F5F7F9;
   padding: clamp(20px, 1.667vw, 48px);
 }
@@ -4250,6 +4250,10 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
 .tarjeta-3:hover, .tarjeta-4:hover {
   transform: scale(1.02);
   box-shadow: 1px 1px 10px 5px#0000008e;
+}
+
+.text-rojo {
+  color: #c11d26;
 }
 
 
