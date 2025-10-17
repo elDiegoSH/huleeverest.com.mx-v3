@@ -1665,7 +1665,8 @@ header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .st
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .main-menu__list > li > a:hover, header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .main-menu__list > li > a.active,
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .stricky-header .main-menu__list > li > a:hover,
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .stricky-header .main-menu__list > li > a.active {
-  color: #c11d26;
+  color: #fff;
+  filter: drop-shadow(1px 1px 1px #c11d26);
 }
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .main-menu__list > li > a:hover::before, header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .main-menu__list > li > a.active::before,
 header .main-menu .main-menu-right-wrapper .menu-double-line .main-menu__nav .stricky-header .main-menu__list > li > a:hover::before,
