@@ -40,8 +40,8 @@ var MyScroll = "";
       Init.filterToggle();
       Init.filterSearch();
       Init.countdownInit(".countdown", "2025/12/01");
-      Init.formValidation();
-      Init.contactForm();
+      
+      
     },
 
     w: function (e) {
@@ -441,6 +441,7 @@ var MyScroll = "";
       }
     },
 
+    /*
     // Form Validation
     formValidation: function () {
       if ($(".contact-form").length) {
@@ -487,6 +488,8 @@ var MyScroll = "";
         }
       });
     },
+  */
+
   };
 
   Init.i();

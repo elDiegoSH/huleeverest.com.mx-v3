@@ -1854,6 +1854,8 @@ header .main-menu .main-menu-right-wrapper .main-menu__right .contact-button .re
   color: #c11d26;
 }
 
+
+
 /*--------------------------------------------------------------
   # Mobile Nav
   --------------------------------------------------------------*/
@@ -3688,7 +3690,7 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
 }
 
 .title-banner {
-  background: url("../media/backgrounds/title-banner.png") no-repeat;
+  background: url("../media/backgrounds/title-banner.webp") no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 200px;
@@ -4264,9 +4266,5 @@ footer .company-contacts .rotate-container .contact-btn:hover::before {
 .tamano-17 {
   font-size: 17px;
 }
-
-
-
-
 
 /*# sourceMappingURL=app.css.map */
