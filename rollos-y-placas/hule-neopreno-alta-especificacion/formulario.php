@@ -41,8 +41,8 @@ if (empty($_POST["mensaje"])) {
     if ($mensaje == '') $error .= 'Mensaje está vacío<br>';
 }
 
-$cuerpo  = "--- FORMULARIO A HULE EVEREST, DESDE HULE NEOPRENO COMERCIAL ---\n";
-$cuerpo .= "Url: https://www.huleeverest.com.mx/rollos-y-placas/hule-neopreno/\n\n";
+$cuerpo  = "--- FORMULARIO A HULE EVEREST, DESDE HULE NEOPRENO ALTA ESPECIFICACION ---\n";
+$cuerpo .= "Url: https://www.huleeverest.com.mx/rollos-y-placas/hule-neopreno-alta-especificacion/\n\n";
 $cuerpo .= "Nombre: " . $nombre . "\n";
 $cuerpo .= "Email: " . $email . "\n";
 $cuerpo .= "Telefono: " . $telefono . "\n\n";
